@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package com.foo.bar;
+
+import "annotations.proto";
+
+message Bar {
+    option (foo.owner) = "com.foo.bar";
+    string field = 1;
+    foo.Foo field2 = 2;
+}

@@ -1,0 +1,1 @@
+protoc -I protos --filedescriptor_set_out=descriptor.pb protos/*.proto

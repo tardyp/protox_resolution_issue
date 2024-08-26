@@ -1,0 +1,10 @@
+[package]
+name = "root_resolution"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[build-dependencies]
+protobuf-codegen = "3.5.1"
+protox = "0.7.1"
